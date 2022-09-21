@@ -1,0 +1,1428 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Urinary Biomarkers for Pancreatic Cancer</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-search-results"></div>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Urinary Biomarkers for Pancreatic Cancer</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<p><strong>Authors:</strong> Katyna Sada, Cristina Tobías and Angélica Santos</p>
+<p><strong>Date:</strong> March 2021</p>
+<section id="pancreatic-cancer" class="level2">
+<h2 class="anchored" data-anchor-id="pancreatic-cancer">1. Pancreatic Cancer</h2>
+<p style="text-align: justify;">
+</p><p>Pancreatic ductal adenocarcinoma (PDAC) is a highly fatal disease with a 5-year survival rate of approximtely 10% in the USA, and it is becoming an increasingly common cause of cancer mortality.</p>
+<p>However, with an early detection the odds of surviving are much better. Unfortunately, many cases of pacreatic cancer show no symptoms until the cancer has spread throughout the body.</p>
+New strategies for screening high-risk patients to detect pancreatic tumours at early stages are needed to make a clinically significant impact.
+<p></p>
+</section>
+<section id="objective" class="level2">
+<h2 class="anchored" data-anchor-id="objective">2. Objective</h2>
+<p>Validate a biomarker panel for earlier detection of PDAC in urine.</p>
+</section>
+<section id="dataset" class="level2">
+<h2 class="anchored" data-anchor-id="dataset">3. Dataset</h2>
+<p style="text-align: justify;">
+</p><p>The dataset evaluates 590 patients, of which, 183 are healthy individuals, 208 have a benign pancreatic tumor and the rest have pancreatic cancer in different stages.</p>
+<p>The data has been obtained by performing 2 different studies (cohort 1 and cohort 2). In the first study, the biomarkers analysed were creatinine, LYVE1, REG1B, TFF1 and REG1A, whilst in the second, the last biomarker was not analysed.</p>
+<p>Other parameters that have been taken into account, besides the biomarkers, are the sex and age of the patients, the origin of the sample and, for the patients with a benign tumor, the symptoms.</p>
+<p></p>
+<section id="loading-libraries" class="level3">
+<h3 class="anchored" data-anchor-id="loading-libraries">3.1 Loading libraries</h3>
+<div class="cell" data-execution_count="16">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Library import</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> matplotlib <span class="im">import</span> style</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.ticker <span class="im">as</span> ticker</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># For creating the pipelines</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.impute <span class="im">import</span> KNNImputer</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> OneHotEncoder</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> StandardScaler</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> FunctionTransformer</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.pipeline <span class="im">import</span> Pipeline</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.compose <span class="im">import</span> ColumnTransformer</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Algorithms</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.neighbors <span class="im">import</span> KNeighborsClassifier</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.tree <span class="im">import</span> DecisionTreeClassifier</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestClassifier</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> GradientBoostingClassifier</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> AdaBoostClassifier</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.svm <span class="im">import</span> SVC</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LogisticRegression</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="co"># For the metrics</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> accuracy_score</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> confusion_matrix</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>matplotlib inline</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</section>
+<section id="data" class="level3">
+<h3 class="anchored" data-anchor-id="data">3.2 Data</h3>
+<p style="text-align: justify;">
+</p><p>The key features are the aforementioned urinary biomarkers: creatinine, LYVE1, REG1B and TFF1. * <strong>Creatinine</strong>: a protein that is often used as an indicator of kidney function. * <strong>YVLE1</strong>: lymphatic vessel endothelial hyaluronan receptor 1, a protein that may play a role in tumor metastasis. * <strong>REG1B</strong>: a protein that may be associated with pancreas regeneration * <strong>TFF1</strong>: trefoil factor 1, which may be related to regeneration and repair of the urinary tract.</p>
+<p></p>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:31478,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1619985164715,&quot;user&quot;:{&quot;displayName&quot;:&quot;Angélica Santos Reyes&quot;,&quot;photoUrl&quot;:&quot;&quot;,&quot;userId&quot;:&quot;16538059615749627430&quot;},&quot;user_tz&quot;:-120}" data-outputid="4950b1eb-2105-4598-ce9c-16d5dd60c5fc" data-execution_count="17">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> pd.read_csv(<span class="st">"DebernardiDataModificado.csv"</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>data.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display" data-execution_count="17">
+
+<div>
+
+<table class="dataframe table table-sm table-striped">
+  <thead>
+    <tr>
+      <th></th>
+      <th>sample_id</th>
+      <th>patient_cohort</th>
+      <th>sample_origin</th>
+      <th>age</th>
+      <th>sex</th>
+      <th>diagnosis</th>
+      <th>stage</th>
+      <th>benign_sample_diagnosis</th>
+      <th>plasma_CA19_9</th>
+      <th>creatinine</th>
+      <th>LYVE1</th>
+      <th>REG1B</th>
+      <th>T001</th>
+      <th>REG1A</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>S1</td>
+      <td>Cohort1</td>
+      <td>1</td>
+      <td>33</td>
+      <td>0</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>11.7</td>
+      <td>1.83222</td>
+      <td>0.893219</td>
+      <td>52.94884</td>
+      <td>654.282174</td>
+      <td>1262.000</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>S10</td>
+      <td>Cohort1</td>
+      <td>1</td>
+      <td>81</td>
+      <td>0</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.97266</td>
+      <td>2.037585</td>
+      <td>94.46703</td>
+      <td>209.488250</td>
+      <td>228.407</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>S100</td>
+      <td>Cohort2</td>
+      <td>1</td>
+      <td>51</td>
+      <td>1</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>7.0</td>
+      <td>0.78039</td>
+      <td>0.145589</td>
+      <td>102.36600</td>
+      <td>461.141000</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>S101</td>
+      <td>Cohort2</td>
+      <td>1</td>
+      <td>61</td>
+      <td>1</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>8.0</td>
+      <td>0.70122</td>
+      <td>0.002805</td>
+      <td>60.57900</td>
+      <td>142.950000</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>S102</td>
+      <td>Cohort2</td>
+      <td>1</td>
+      <td>62</td>
+      <td>1</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>9.0</td>
+      <td>0.21489</td>
+      <td>0.000860</td>
+      <td>65.54000</td>
+      <td>41.088000</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<p style="text-align: justify;">
+As it can be seen in the matrix above, the variables stage and benign sample diagnosis are exclusive to a particular diagnosis. This can be used for further studies, nonetheless, in this project, those columns are going to be removed since the absent values cannot be imputed.
+</p>
+<div class="cell" data-execution_count="18">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># There are some features which are exclusive for the type of diagnosis.   </span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># In case further studies have to be performed, that columns will be stored in these variables. </span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>stage <span class="op">=</span> data.stage <span class="co"># Only for cancer patients</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>benign_sample_diagnosis <span class="op">=</span> data.benign_sample_diagnosis <span class="co"># Only for benign tumors</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="co">#We remove the unusable columns</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> data.drop(columns <span class="op">=</span> [<span class="st">'sample_id'</span>,<span class="st">'patient_cohort'</span>,<span class="st">'stage'</span>,<span class="st">'benign_sample_diagnosis'</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:31462,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1619985164721,&quot;user&quot;:{&quot;displayName&quot;:&quot;Angélica Santos Reyes&quot;,&quot;photoUrl&quot;:&quot;&quot;,&quot;userId&quot;:&quot;16538059615749627430&quot;},&quot;user_tz&quot;:-120}" data-outputid="269867ba-a9ea-4884-c7da-7bba6b629db1" data-execution_count="19">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>data.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display" data-execution_count="19">
+
+<div>
+
+<table class="dataframe table table-sm table-striped">
+  <thead>
+    <tr>
+      <th></th>
+      <th>sample_origin</th>
+      <th>age</th>
+      <th>sex</th>
+      <th>diagnosis</th>
+      <th>plasma_CA19_9</th>
+      <th>creatinine</th>
+      <th>LYVE1</th>
+      <th>REG1B</th>
+      <th>T001</th>
+      <th>REG1A</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>33</td>
+      <td>0</td>
+      <td>1</td>
+      <td>11.7</td>
+      <td>1.83222</td>
+      <td>0.893219</td>
+      <td>52.94884</td>
+      <td>654.282174</td>
+      <td>1262.000</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1</td>
+      <td>81</td>
+      <td>0</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>0.97266</td>
+      <td>2.037585</td>
+      <td>94.46703</td>
+      <td>209.488250</td>
+      <td>228.407</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1</td>
+      <td>51</td>
+      <td>1</td>
+      <td>1</td>
+      <td>7.0</td>
+      <td>0.78039</td>
+      <td>0.145589</td>
+      <td>102.36600</td>
+      <td>461.141000</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1</td>
+      <td>61</td>
+      <td>1</td>
+      <td>1</td>
+      <td>8.0</td>
+      <td>0.70122</td>
+      <td>0.002805</td>
+      <td>60.57900</td>
+      <td>142.950000</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1</td>
+      <td>62</td>
+      <td>1</td>
+      <td>1</td>
+      <td>9.0</td>
+      <td>0.21489</td>
+      <td>0.000860</td>
+      <td>65.54000</td>
+      <td>41.088000</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell" data-execution_count="20">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define numerical and categorical features</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>numeric_cols <span class="op">=</span> [<span class="st">'age'</span>, <span class="st">'plasma_CA19_9'</span>,<span class="st">'creatinine'</span>, <span class="st">'LYVE1'</span>, <span class="st">'REG1B'</span>, <span class="st">'T001'</span>, <span class="st">'REG1A'</span>]</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>cat_cols <span class="op">=</span> [<span class="st">'sample_origin'</span>,<span class="st">'sex'</span>]</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>data[cat_cols] <span class="op">=</span> data[cat_cols].astype(<span class="st">'category'</span>)</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>data.diagnosis <span class="op">=</span> data.diagnosis.astype(<span class="st">'category'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</section>
+</section>
+<section id="exploratory-data-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="exploratory-data-analysis">4. Exploratory data analysis</h2>
+<p style="text-align: justify;">
+</p><p>The first step is to explore the data, this analysis is divided into different parts:</p>
+<ul>
+<li>Identify missing values</li>
+<li>Plot the distributions of the numerical variables</li>
+<li>Analyse the correlation between features</li>
+</ul>
+<p></p>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:31449,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1619985164726,&quot;user&quot;:{&quot;displayName&quot;:&quot;Angélica Santos Reyes&quot;,&quot;photoUrl&quot;:&quot;&quot;,&quot;userId&quot;:&quot;16538059615749627430&quot;},&quot;user_tz&quot;:-120}" data-outputid="aea7a603-92b0-4ab4-b623-cbc95746dec6" data-execution_count="21">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>data.isna()</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>data.isna().<span class="bu">sum</span>() <span class="co"># Total 0s</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display" data-execution_count="21">
+<pre><code>sample_origin      0
+age                0
+sex                0
+diagnosis          0
+plasma_CA19_9    240
+creatinine         0
+LYVE1              0
+REG1B              0
+T001               0
+REG1A            284
+dtype: int64</code></pre>
+</div>
+</div>
+<p style="text-align: justify;">
+As stated before, there are several missing values for the plasma and the biomarker REG1A.
+</p>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:39497,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1619985172791,&quot;user&quot;:{&quot;displayName&quot;:&quot;Angélica Santos Reyes&quot;,&quot;photoUrl&quot;:&quot;&quot;,&quot;userId&quot;:&quot;16538059615749627430&quot;},&quot;user_tz&quot;:-120}" data-outputid="7f1d3718-18aa-4373-9be7-1d067345a26f" data-execution_count="22">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Distribution graphs for numerical variables</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>fig, axes <span class="op">=</span> plt.subplots(nrows<span class="op">=</span><span class="dv">2</span>, ncols<span class="op">=</span><span class="dv">3</span>, figsize<span class="op">=</span>(<span class="dv">9</span>, <span class="dv">5</span>))</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>axes <span class="op">=</span> axes.flat</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, colum <span class="kw">in</span> <span class="bu">enumerate</span>(numeric_cols):</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>    sns.histplot(</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>        data    <span class="op">=</span> data,</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>        x       <span class="op">=</span> colum,</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>        stat    <span class="op">=</span> <span class="st">"count"</span>,</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>        kde     <span class="op">=</span> <span class="va">True</span>,</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>        palette   <span class="op">=</span> sns.color_palette(<span class="st">"muted"</span>, <span class="dv">3</span>),</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>        line_kws<span class="op">=</span> {<span class="st">'linewidth'</span>: <span class="dv">2</span>},</span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>        alpha   <span class="op">=</span> <span class="fl">0.3</span>,</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>        ax      <span class="op">=</span> axes[i<span class="op">-</span><span class="dv">2</span>],</span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>        hue     <span class="op">=</span> <span class="st">'diagnosis'</span></span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>    axes[i<span class="op">-</span><span class="dv">2</span>].set_title(colum, fontsize <span class="op">=</span> <span class="dv">7</span>, fontweight <span class="op">=</span> <span class="st">"bold"</span>)</span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>    axes[i<span class="op">-</span><span class="dv">2</span>].tick_params(labelsize <span class="op">=</span> <span class="dv">6</span>)</span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a>    axes[i<span class="op">-</span><span class="dv">2</span>].set_xlabel(<span class="st">""</span>)</span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a>fig.tight_layout()</span>
+<span id="cb8-23"><a href="#cb8-23" aria-hidden="true" tabindex="-1"></a>plt.subplots_adjust(top <span class="op">=</span> <span class="fl">0.9</span>)</span>
+<span id="cb8-24"><a href="#cb8-24" aria-hidden="true" tabindex="-1"></a>fig.suptitle(<span class="st">'Numerical variables distribution'</span>, fontsize <span class="op">=</span> <span class="dv">10</span>, fontweight <span class="op">=</span> <span class="st">"bold"</span>)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<p><img src="UrinaryBiomarkers_files/figure-html/cell-8-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<p>The graphs show simmilar distributions among the diagnosis, therefore, a transformation will be applied afterwards in the models.</p>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:40989,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1619985174300,&quot;user&quot;:{&quot;displayName&quot;:&quot;Angélica Santos Reyes&quot;,&quot;photoUrl&quot;:&quot;&quot;,&quot;userId&quot;:&quot;16538059615749627430&quot;},&quot;user_tz&quot;:-120}" data-outputid="de8df61b-316b-4f80-c08a-c6995d2515b8" data-execution_count="23">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Boxplots for numerical variables</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>fig, axes <span class="op">=</span> plt.subplots(nrows<span class="op">=</span><span class="dv">2</span>, ncols<span class="op">=</span><span class="dv">3</span>, figsize<span class="op">=</span>(<span class="dv">9</span>, <span class="dv">5</span>))</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>axes <span class="op">=</span> axes.flat</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>columnas_numeric <span class="op">=</span> data.select_dtypes(include<span class="op">=</span>[<span class="st">'float64'</span>, <span class="st">'int'</span>]).columns</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, colum <span class="kw">in</span> <span class="bu">enumerate</span>(numeric_cols):</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>    sns.boxplot(</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>        data    <span class="op">=</span> data,</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>        y       <span class="op">=</span> colum,</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>        ax      <span class="op">=</span> axes[i<span class="op">-</span><span class="dv">2</span>],</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>        x       <span class="op">=</span> <span class="st">'diagnosis'</span>,</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>    axes[i<span class="op">-</span><span class="dv">2</span>].set_title(colum, fontsize <span class="op">=</span> <span class="dv">7</span>, fontweight <span class="op">=</span> <span class="st">"bold"</span>)</span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>    axes[i<span class="op">-</span><span class="dv">2</span>].tick_params(labelsize <span class="op">=</span> <span class="dv">6</span>)</span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>    axes[i<span class="op">-</span><span class="dv">2</span>].set_xlabel(<span class="st">""</span>)</span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a>fig.tight_layout()</span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>plt.subplots_adjust(top <span class="op">=</span> <span class="fl">0.9</span>)</span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a>fig.suptitle(<span class="st">'Numerical variables boxplot'</span>, fontsize <span class="op">=</span> <span class="dv">10</span>, fontweight <span class="op">=</span> <span class="st">"bold"</span>)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<p><img src="UrinaryBiomarkers_files/figure-html/cell-9-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:40983,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1619985174310,&quot;user&quot;:{&quot;displayName&quot;:&quot;Angélica Santos Reyes&quot;,&quot;photoUrl&quot;:&quot;&quot;,&quot;userId&quot;:&quot;16538059615749627430&quot;},&quot;user_tz&quot;:-120}" data-outputid="d6159003-99e4-41be-f5c0-fdfa0604101a" data-execution_count="24">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Boxplot of age</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>sns.boxplot(x<span class="op">=</span><span class="st">"diagnosis"</span>, y<span class="op">=</span><span class="st">"age"</span>, data<span class="op">=</span>data) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display" data-execution_count="24">
+<pre><code>&lt;AxesSubplot:xlabel='diagnosis', ylabel='age'&gt;</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<p><img src="UrinaryBiomarkers_files/figure-html/cell-10-output-2.png" class="img-fluid"></p>
+</div>
+</div>
+<p>It is important to know the distribuition of all variables taken into account in the models, in this case, all the diagnosis have a similar number of men and women. The difference in age range is also not that significant, however the age range on the cancer pantients is higher.</p>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:42193,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1619985175536,&quot;user&quot;:{&quot;displayName&quot;:&quot;Angélica Santos Reyes&quot;,&quot;photoUrl&quot;:&quot;&quot;,&quot;userId&quot;:&quot;16538059615749627430&quot;},&quot;user_tz&quot;:-120}" data-outputid="49c32459-0db6-4675-b957-187cc3110787" data-execution_count="25">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Sex based on diagnosis</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>sns.countplot(x <span class="op">=</span><span class="st">'diagnosis'</span>, hue <span class="op">=</span> <span class="st">"sex"</span>, data <span class="op">=</span> data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display" data-execution_count="25">
+<pre><code>&lt;AxesSubplot:xlabel='diagnosis', ylabel='count'&gt;</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<p><img src="UrinaryBiomarkers_files/figure-html/cell-11-output-2.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:42195,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1619985175555,&quot;user&quot;:{&quot;displayName&quot;:&quot;Angélica Santos Reyes&quot;,&quot;photoUrl&quot;:&quot;&quot;,&quot;userId&quot;:&quot;16538059615749627430&quot;},&quot;user_tz&quot;:-120}" data-outputid="699d6be2-4d55-465d-c3e2-f3e62cb316c1" data-execution_count="26">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Sample_origin based on diagnosis</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>sns.countplot(x <span class="op">=</span><span class="st">'diagnosis'</span>, hue <span class="op">=</span> <span class="st">"sample_origin"</span>, data <span class="op">=</span> data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display" data-execution_count="26">
+<pre><code>&lt;AxesSubplot:xlabel='diagnosis', ylabel='count'&gt;</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<p><img src="UrinaryBiomarkers_files/figure-html/cell-12-output-2.png" class="img-fluid"></p>
+</div>
+</div>
+<p>This is not the case for the sample origin, since most of the healthy samples come from the first hospital and that all of the samples from the 4th hospital have a benign tumor.</p>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:74533,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1619985207908,&quot;user&quot;:{&quot;displayName&quot;:&quot;Angélica Santos Reyes&quot;,&quot;photoUrl&quot;:&quot;&quot;,&quot;userId&quot;:&quot;16538059615749627430&quot;},&quot;user_tz&quot;:-120}" data-outputid="56359999-05d5-4ef3-9297-2e0ae830f705" data-execution_count="27">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>sns.pairplot(data, hue <span class="op">=</span> <span class="st">'diagnosis'</span>, markers<span class="op">=</span>[<span class="st">"o"</span>, <span class="st">"s"</span>, <span class="st">"D"</span>], palette<span class="op">=</span> sns.color_palette(<span class="st">"muted"</span>, <span class="dv">3</span>), corner<span class="op">=</span><span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display" data-execution_count="27">
+<pre><code>&lt;seaborn.axisgrid.PairGrid at 0x7f8c5ac014f0&gt;</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<p><img src="UrinaryBiomarkers_files/figure-html/cell-13-output-2.png" class="img-fluid"></p>
+</div>
+</div>
+<p>There is barely correlation between the features, the diagnosis does not seem to have an effect neither.</p>
+<p>After considering the plots, it is clear that the models will have suboptimal results when predicting 3 diagnosis. The proposed solution to this problem is to create two different types of models. The first type will try to predict all 3 diagnosis, whilst the second will only predict whether a patient is healthy or not.</p>
+</section>
+<section id="models-with-3-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="models-with-3-outcomes">5. Models with 3 outcomes</h2>
+<p>For these models we will considered three possible outcomes: * 1: Healthy controls. * 2: Patients with non-cancerous pancreatic conditions, like chronic pancreatitis. * 3: Patients with pancreatic ductal adenocarcinoma.</p>
+<section id="division-of-data" class="level3">
+<h3 class="anchored" data-anchor-id="division-of-data">5.1 Division of data</h3>
+<p>Stratified sampling was used in order to guarantee the same proportion in each class than the one had in the complete data set.</p>
+<div class="cell" data-execution_count="28">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<div class="cell" data-execution_count="29">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> data.drop(columns<span class="op">=</span><span class="st">'diagnosis'</span>) </span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> data[[<span class="st">'diagnosis'</span>]]</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X,y, test_size <span class="op">=</span> <span class="fl">0.33</span>, random_state <span class="op">=</span> <span class="dv">42</span>,stratify<span class="op">=</span>y)</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>X_train, X_val, y_train, y_val  <span class="op">=</span> train_test_split(X_train, y_train, test_size<span class="op">=</span><span class="fl">0.25</span>, random_state<span class="op">=</span><span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</section>
+<section id="preprocessing" class="level3">
+<h3 class="anchored" data-anchor-id="preprocessing">5.2 Preprocessing</h3>
+<p>As stated before, transformations ought to be applied to the data in order to analyse it. The chosen transformation has been the logarithmic transform, since this operation stretches the distribution of numerical variables.</p>
+<div class="cell" data-execution_count="30">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> log_transform(x):</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.log(x <span class="op">+</span> <span class="dv">1</span>) <span class="co"># required for applying the logarithm to the numeric variables</span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>transformer <span class="op">=</span> FunctionTransformer(log_transform)</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>scaler <span class="op">=</span> StandardScaler()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:74516,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1619985207922,&quot;user&quot;:{&quot;displayName&quot;:&quot;Angélica Santos Reyes&quot;,&quot;photoUrl&quot;:&quot;&quot;,&quot;userId&quot;:&quot;16538059615749627430&quot;},&quot;user_tz&quot;:-120}" data-outputid="d871c7c9-62d3-4561-f2a9-b2e53c11970a" data-execution_count="31">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a> <span class="co"># Boxplots of data when applying the transform</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>fig, axes <span class="op">=</span> plt.subplots(nrows<span class="op">=</span><span class="dv">2</span>, ncols<span class="op">=</span><span class="dv">3</span>, figsize<span class="op">=</span>(<span class="dv">9</span>, <span class="dv">5</span>))</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>axes <span class="op">=</span> axes.flat</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>columnas_numeric <span class="op">=</span> data.select_dtypes(include<span class="op">=</span>[<span class="st">'float64'</span>, <span class="st">'int'</span>]).columns</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, colum <span class="kw">in</span> <span class="bu">enumerate</span>(numeric_cols):</span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>    sns.boxplot(</span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>        data    <span class="op">=</span> data,</span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a>        y       <span class="op">=</span> (transformer.transform(data[colum])),</span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a>        ax      <span class="op">=</span> axes[i<span class="op">-</span><span class="dv">2</span>],</span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a>        x       <span class="op">=</span> <span class="st">'diagnosis'</span>,</span>
+<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb21-13"><a href="#cb21-13" aria-hidden="true" tabindex="-1"></a>    axes[i<span class="op">-</span><span class="dv">2</span>].set_title(colum, fontsize <span class="op">=</span> <span class="dv">7</span>, fontweight <span class="op">=</span> <span class="st">"bold"</span>)</span>
+<span id="cb21-14"><a href="#cb21-14" aria-hidden="true" tabindex="-1"></a>    axes[i<span class="op">-</span><span class="dv">2</span>].tick_params(labelsize <span class="op">=</span> <span class="dv">6</span>)</span>
+<span id="cb21-15"><a href="#cb21-15" aria-hidden="true" tabindex="-1"></a>    axes[i<span class="op">-</span><span class="dv">2</span>].set_xlabel(<span class="st">""</span>)</span>
+<span id="cb21-16"><a href="#cb21-16" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb21-17"><a href="#cb21-17" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb21-18"><a href="#cb21-18" aria-hidden="true" tabindex="-1"></a>fig.tight_layout()</span>
+<span id="cb21-19"><a href="#cb21-19" aria-hidden="true" tabindex="-1"></a>plt.subplots_adjust(top <span class="op">=</span> <span class="fl">0.9</span>)</span>
+<span id="cb21-20"><a href="#cb21-20" aria-hidden="true" tabindex="-1"></a>fig.suptitle(<span class="st">'Logarithm of numerical variables boxplot'</span>, fontsize <span class="op">=</span> <span class="dv">10</span>, fontweight <span class="op">=</span> <span class="st">"bold"</span>)<span class="op">;</span></span>
+<span id="cb21-21"><a href="#cb21-21" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<p><img src="UrinaryBiomarkers_files/figure-html/cell-17-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:77432,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1619985210854,&quot;user&quot;:{&quot;displayName&quot;:&quot;Angélica Santos Reyes&quot;,&quot;photoUrl&quot;:&quot;&quot;,&quot;userId&quot;:&quot;16538059615749627430&quot;},&quot;user_tz&quot;:-120}" data-outputid="a5b2697c-4b75-4a96-b1f0-a2660db31182" data-execution_count="32">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>plotting_data <span class="op">=</span> transformer.transform(data.select_dtypes(include<span class="op">=</span>[<span class="st">'float64'</span>, <span class="st">'int'</span>]))</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>plotting_data <span class="op">=</span> pd.concat([plotting_data.reset_index(drop<span class="op">=</span><span class="va">True</span>), data.diagnosis], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>sns.pairplot(plotting_data, hue <span class="op">=</span> <span class="st">'diagnosis'</span>, markers<span class="op">=</span>[<span class="st">"o"</span>, <span class="st">"s"</span>, <span class="st">"D"</span>], palette<span class="op">=</span> sns.color_palette(<span class="st">"muted"</span>, <span class="dv">3</span>), corner<span class="op">=</span><span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display" data-execution_count="32">
+<pre><code>&lt;seaborn.axisgrid.PairGrid at 0x7f8c5aed39a0&gt;</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<p><img src="UrinaryBiomarkers_files/figure-html/cell-18-output-2.png" class="img-fluid"></p>
+</div>
+</div>
+<p>A more significant difference can be observed between classes when applying the log transform. Furthermore, some variables seem to be correlated in this scale.</p>
+<p>After checking the effectiveness of the transformation, the pipeline is created. All the numerical variables will undergo the previous transformation, moreover, the categorical variables will be encoded so that the models can take them into account.</p>
+<p>The missing values will be imputed by the means of a KNN imputer in both cases.</p>
+<div class="cell" data-execution_count="33">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Numerical variables</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>numeric_transformer <span class="op">=</span> Pipeline(</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>                        steps<span class="op">=</span>[(<span class="st">'transformer'</span>,transformer), <span class="co"># Log</span></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>                               (<span class="st">'imputer'</span>, KNNImputer()), <span class="co">#Imputation for completing missing values using k-Nearest Neighbors.</span></span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>                               (<span class="st">'scaler'</span>, scaler)]) <span class="co"># Standardize features by removing the mean and scaling to unit variance</span></span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Categorical variables</span></span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>categorical_transformer <span class="op">=</span> Pipeline(</span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a>                            steps<span class="op">=</span>[(<span class="st">'imputer'</span>, KNNImputer()),</span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a>                                   (<span class="st">'onehot'</span>, OneHotEncoder(handle_unknown<span class="op">=</span><span class="st">'ignore'</span>))])</span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Preprocessor</span></span>
+<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a>preprocessor <span class="op">=</span> ColumnTransformer(</span>
+<span id="cb24-14"><a href="#cb24-14" aria-hidden="true" tabindex="-1"></a>                    transformers<span class="op">=</span>[</span>
+<span id="cb24-15"><a href="#cb24-15" aria-hidden="true" tabindex="-1"></a>                        (<span class="st">'cat'</span>, categorical_transformer, cat_cols),</span>
+<span id="cb24-16"><a href="#cb24-16" aria-hidden="true" tabindex="-1"></a>                        (<span class="st">'numeric'</span>, numeric_transformer, numeric_cols)],</span>
+<span id="cb24-17"><a href="#cb24-17" aria-hidden="true" tabindex="-1"></a>                        remainder<span class="op">=</span><span class="st">'passthrough'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</section>
+<section id="predictive-models" class="level3">
+<h3 class="anchored" data-anchor-id="predictive-models">5.3 Predictive models</h3>
+<p>Different predictive models were first validated with the default tunning parameters.</p>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:77415,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1619985210860,&quot;user&quot;:{&quot;displayName&quot;:&quot;Angélica Santos Reyes&quot;,&quot;photoUrl&quot;:&quot;&quot;,&quot;userId&quot;:&quot;16538059615749627430&quot;},&quot;user_tz&quot;:-120}" data-outputid="3ff7ab85-36ba-403b-e928-12deb9760ca4" data-execution_count="34">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>key <span class="op">=</span> [<span class="st">'KNeighborsClassifier'</span>,<span class="st">'SVC'</span>,<span class="st">'DecisionTreeClassifier'</span>,<span class="st">'RandomForestClassifier'</span>,<span class="st">'GradientBoostingClassifier'</span>,<span class="st">'AdaBoostClassifier'</span>]</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>value <span class="op">=</span> [KNeighborsClassifier(weights <span class="op">=</span><span class="st">'distance'</span>), SVC(random_state<span class="op">=</span><span class="dv">42</span>), DecisionTreeClassifier(random_state<span class="op">=</span><span class="dv">42</span>), RandomForestClassifier(random_state<span class="op">=</span><span class="dv">42</span>), GradientBoostingClassifier(random_state<span class="op">=</span><span class="dv">42</span>), AdaBoostClassifier()]</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>models <span class="op">=</span> <span class="bu">dict</span>(<span class="bu">zip</span>(key,value))</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>models</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>predicted <span class="op">=</span>[]</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> name,algo <span class="kw">in</span> models.items():</span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>    model<span class="op">=</span>algo</span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>    pipe <span class="op">=</span> Pipeline([(<span class="st">'preprocessing'</span>, preprocessor),  (<span class="st">'modelo'</span>, model)])</span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a>    pipe.fit(X<span class="op">=</span>X_train, y<span class="op">=</span>y_train)</span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a>    predict <span class="op">=</span> pipe.predict(X_val)</span>
+<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a>    acc <span class="op">=</span> accuracy_score(y_val, predict)</span>
+<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a>    predicted.append(acc)</span>
+<span id="cb25-14"><a href="#cb25-14" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb25-15"><a href="#cb25-15" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb25-16"><a href="#cb25-16" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize <span class="op">=</span> (<span class="dv">10</span>,<span class="dv">5</span>))</span>
+<span id="cb25-17"><a href="#cb25-17" aria-hidden="true" tabindex="-1"></a>sns.barplot(x <span class="op">=</span> predicted, y <span class="op">=</span> key, palette<span class="op">=</span><span class="st">'muted'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stderr">
+<pre><code>/Users/katyna/opt/anaconda3/envs/SparseGoNew/lib/python3.8/site-packages/sklearn/neighbors/_classification.py:198: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  return self._fit(X, y)
+/Users/katyna/opt/anaconda3/envs/SparseGoNew/lib/python3.8/site-packages/sklearn/utils/validation.py:993: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/Users/katyna/opt/anaconda3/envs/SparseGoNew/lib/python3.8/site-packages/sklearn/pipeline.py:394: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  self._final_estimator.fit(Xt, y, **fit_params_last_step)
+/Users/katyna/opt/anaconda3/envs/SparseGoNew/lib/python3.8/site-packages/sklearn/ensemble/_gb.py:494: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/Users/katyna/opt/anaconda3/envs/SparseGoNew/lib/python3.8/site-packages/sklearn/utils/validation.py:993: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)</code></pre>
+</div>
+<div class="cell-output cell-output-display" data-execution_count="34">
+<pre><code>&lt;AxesSubplot:&gt;</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<p><img src="UrinaryBiomarkers_files/figure-html/cell-20-output-3.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:77401,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1619985210861,&quot;user&quot;:{&quot;displayName&quot;:&quot;Angélica Santos Reyes&quot;,&quot;photoUrl&quot;:&quot;&quot;,&quot;userId&quot;:&quot;16538059615749627430&quot;},&quot;user_tz&quot;:-120}" data-outputid="42a254ca-2d04-4212-e8bf-8fb8e0f99c2c" data-execution_count="35">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>predictions <span class="op">=</span> <span class="bu">dict</span>(<span class="bu">zip</span>(key,predicted))</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(predictions)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>{'KNeighborsClassifier': 0.6565656565656566, 'SVC': 0.5959595959595959, 'DecisionTreeClassifier': 0.6464646464646465, 'RandomForestClassifier': 0.696969696969697, 'GradientBoostingClassifier': 0.696969696969697, 'AdaBoostClassifier': 0.5858585858585859}</code></pre>
+</div>
+</div>
+<p>The best predictive models are Random Forest and GradientBoostingClassifier. The chosen model to tune was GradientBoostingClassifier.</p>
+</section>
+<section id="tunning-the-chosen-model" class="level3">
+<h3 class="anchored" data-anchor-id="tunning-the-chosen-model">5.4 Tunning the chosen model</h3>
+<section id="gradient-boosting" class="level5">
+<h5 class="anchored" data-anchor-id="gradient-boosting">Gradient boosting</h5>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>tuned_parameters <span class="op">=</span> [ {<span class="st">'modelo__loss'</span>: </span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>                      [<span class="st">'deviance'</span>, <span class="st">'exponential'</span>], </span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>                      <span class="st">'modelo__learning_rate'</span>: [<span class="fl">0.1</span>, <span class="fl">0.01</span>, <span class="fl">0.001</span>, <span class="fl">0.0001</span>],</span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>                      <span class="st">'modelo__subsample'</span>: [<span class="fl">0.1</span>, <span class="fl">0.5</span>, <span class="dv">1</span>, <span class="dv">2</span>],</span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>                      <span class="st">'modelo__criterion'</span>: [<span class="st">'friedman_mse'</span>, <span class="st">'mse'</span>, <span class="st">'mae'</span>]}</span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a>                   ]</span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a>pipe <span class="op">=</span> Pipeline([(<span class="st">'preprocessing'</span>, preprocessor),</span>
+<span id="cb30-9"><a href="#cb30-9" aria-hidden="true" tabindex="-1"></a>                 (<span class="st">'modelo'</span>, GradientBoostingClassifier(random_state<span class="op">=</span><span class="dv">42</span>))]) </span>
+<span id="cb30-10"><a href="#cb30-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-11"><a href="#cb30-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> GridSearchCV</span>
+<span id="cb30-12"><a href="#cb30-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-13"><a href="#cb30-13" aria-hidden="true" tabindex="-1"></a>clf <span class="op">=</span> GridSearchCV(pipe,tuned_parameters,refit<span class="op">=</span><span class="va">True</span>,verbose<span class="op">=</span><span class="dv">2</span>, cv <span class="op">=</span> <span class="dv">5</span>, </span>
+<span id="cb30-14"><a href="#cb30-14" aria-hidden="true" tabindex="-1"></a>                     scoring<span class="op">=</span><span class="st">'accuracy'</span>)</span>
+<span id="cb30-15"><a href="#cb30-15" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> warnings</span>
+<span id="cb30-16"><a href="#cb30-16" aria-hidden="true" tabindex="-1"></a>warnings.filterwarnings(<span class="st">'ignore'</span>) </span>
+<span id="cb30-17"><a href="#cb30-17" aria-hidden="true" tabindex="-1"></a>clf.fit(X_train, y_train)</span>
+<span id="cb30-18"><a href="#cb30-18" aria-hidden="true" tabindex="-1"></a>means <span class="op">=</span> clf.cv_results_[<span class="st">'mean_test_score'</span>]</span>
+<span id="cb30-19"><a href="#cb30-19" aria-hidden="true" tabindex="-1"></a>stds <span class="op">=</span> clf.cv_results_[<span class="st">'std_test_score'</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:178653,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1619985312143,&quot;user&quot;:{&quot;displayName&quot;:&quot;Angélica Santos Reyes&quot;,&quot;photoUrl&quot;:&quot;&quot;,&quot;userId&quot;:&quot;16538059615749627430&quot;},&quot;user_tz&quot;:-120}" data-outputid="dc792891-29d6-4464-f931-cb869026f4a6" data-execution_count="39">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> pd.DataFrame(clf.cv_results_)</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>results.<span class="bu">filter</span>(regex <span class="op">=</span> <span class="st">'(param.*|mean_t|std_t)'</span>)<span class="op">\</span></span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>    .drop(columns <span class="op">=</span> <span class="st">'params'</span>)<span class="op">\</span></span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>    .sort_values(<span class="st">'mean_test_score'</span>, ascending <span class="op">=</span> <span class="va">False</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display" data-execution_count="39">
+
+<div>
+
+<table class="dataframe table table-sm table-striped">
+  <thead>
+    <tr>
+      <th></th>
+      <th>param_modelo__criterion</th>
+      <th>param_modelo__learning_rate</th>
+      <th>param_modelo__loss</th>
+      <th>param_modelo__subsample</th>
+      <th>mean_test_score</th>
+      <th>std_test_score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>friedman_mse</td>
+      <td>0.1</td>
+      <td>deviance</td>
+      <td>0.5</td>
+      <td>0.669209</td>
+      <td>0.061035</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>mse</td>
+      <td>0.1</td>
+      <td>deviance</td>
+      <td>0.5</td>
+      <td>0.665819</td>
+      <td>0.053922</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>mse</td>
+      <td>0.1</td>
+      <td>deviance</td>
+      <td>1</td>
+      <td>0.655424</td>
+      <td>0.012859</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>friedman_mse</td>
+      <td>0.1</td>
+      <td>deviance</td>
+      <td>1</td>
+      <td>0.655424</td>
+      <td>0.012859</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>friedman_mse</td>
+      <td>0.01</td>
+      <td>deviance</td>
+      <td>0.5</td>
+      <td>0.631864</td>
+      <td>0.036484</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>mae</td>
+      <td>0.0001</td>
+      <td>deviance</td>
+      <td>2</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>mae</td>
+      <td>0.0001</td>
+      <td>exponential</td>
+      <td>0.1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>mae</td>
+      <td>0.0001</td>
+      <td>exponential</td>
+      <td>0.5</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>mae</td>
+      <td>0.0001</td>
+      <td>exponential</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>mae</td>
+      <td>0.0001</td>
+      <td>exponential</td>
+      <td>2</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+<p>96 rows × 6 columns</p>
+</div>
+</div>
+</div>
+<p>The best parameters found based on the accuracy are shown below.</p>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:178643,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1619985312145,&quot;user&quot;:{&quot;displayName&quot;:&quot;Angélica Santos Reyes&quot;,&quot;photoUrl&quot;:&quot;&quot;,&quot;userId&quot;:&quot;16538059615749627430&quot;},&quot;user_tz&quot;:-120}" data-outputid="83a2a56d-cc78-4ab6-d1fd-4f7f865164f2" data-execution_count="40">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>clf.best_params_</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display" data-execution_count="40">
+<pre><code>{'modelo__criterion': 'friedman_mse',
+ 'modelo__learning_rate': 0.1,
+ 'modelo__loss': 'deviance',
+ 'modelo__subsample': 0.5}</code></pre>
+</div>
+</div>
+<p>Before the prediction, a new validation will be performed, so as to check whether the new model has indeed improved with respect to the previous one.</p>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:178631,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1619985312147,&quot;user&quot;:{&quot;displayName&quot;:&quot;Angélica Santos Reyes&quot;,&quot;photoUrl&quot;:&quot;&quot;,&quot;userId&quot;:&quot;16538059615749627430&quot;},&quot;user_tz&quot;:-120}" data-outputid="da33ff80-2d2e-47a7-fdd5-d36fc11393ba" data-execution_count="41">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>new_val <span class="op">=</span> clf.predict(X_val)</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(accuracy_score(y_val, new_val))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>0.696969696969697</code></pre>
+</div>
+</div>
+<p>Finally, the tuned model is tested.</p>
+<div class="cell" data-execution_count="42">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>prediction <span class="op">=</span> clf.predict(X_test)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:178618,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1619985312150,&quot;user&quot;:{&quot;displayName&quot;:&quot;Angélica Santos Reyes&quot;,&quot;photoUrl&quot;:&quot;&quot;,&quot;userId&quot;:&quot;16538059615749627430&quot;},&quot;user_tz&quot;:-120}" data-outputid="a20ebca0-2b55-4089-d199-bdf8f5fe1027" data-execution_count="43">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> classification_report, confusion_matrix</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'Confusion matrix for 3 diagnosis: '</span>)</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">' '</span>)</span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(confusion_matrix(y_test,prediction))</span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">' '</span>)</span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(classification_report(y_test,prediction))</span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">' '</span>)</span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'Accuracy of the model: '</span>, accuracy_score(y_test, prediction))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Confusion matrix for 3 diagnosis: 
+ 
+[[44 13  3]
+ [18 36 15]
+ [ 3  5 58]]
+ 
+              precision    recall  f1-score   support
+
+           1       0.68      0.73      0.70        60
+           2       0.67      0.52      0.59        69
+           3       0.76      0.88      0.82        66
+
+    accuracy                           0.71       195
+   macro avg       0.70      0.71      0.70       195
+weighted avg       0.70      0.71      0.70       195
+
+ 
+Accuracy of the model:  0.7076923076923077</code></pre>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="models-with-2-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="models-with-2-outcomes">6. Models with 2 outcomes</h2>
+<p>For these models we will only consider two possible outcomes: PADC or no-PADC. For this, the <strong>diagnosis</strong> data of healthy (1) and non-cancerous pancreas condition (2) will be merged.</p>
+<div class="cell" data-execution_count="44">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>new_data <span class="op">=</span> data</span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>new_data.diagnosis[new_data.diagnosis <span class="op">==</span> <span class="dv">2</span>] <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>new_data.diagnosis[new_data.diagnosis <span class="op">==</span> <span class="dv">3</span>] <span class="op">=</span> <span class="dv">2</span></span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a>new_data.diagnosis <span class="op">=</span> new_data.diagnosis.cat.remove_unused_categories()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:178606,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1619985312154,&quot;user&quot;:{&quot;displayName&quot;:&quot;Angélica Santos Reyes&quot;,&quot;photoUrl&quot;:&quot;&quot;,&quot;userId&quot;:&quot;16538059615749627430&quot;},&quot;user_tz&quot;:-120}" data-outputid="6bf6c7b9-ad87-4f78-b432-0e4c5f798612" data-execution_count="45">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb40"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>new_data.diagnosis</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display" data-execution_count="45">
+<pre><code>0      1
+1      1
+2      1
+3      1
+4      1
+      ..
+585    2
+586    2
+587    2
+588    2
+589    2
+Name: diagnosis, Length: 590, dtype: category
+Categories (2, int64): [1, 2]</code></pre>
+</div>
+</div>
+<p>A new exploratory analysis can be performed to assess whether this study will have a more positive result than the previous one.</p>
+<p>The boxplots below show a more significant difference than the ones where 3 diagnosis were being evaluated. Nonetheless, it is still advisable to apply a logarithmic transform.</p>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:179793,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1619985313358,&quot;user&quot;:{&quot;displayName&quot;:&quot;Angélica Santos Reyes&quot;,&quot;photoUrl&quot;:&quot;&quot;,&quot;userId&quot;:&quot;16538059615749627430&quot;},&quot;user_tz&quot;:-120}" data-outputid="256ab1e8-7f9a-4a1a-a679-4f1c5f1391c6" data-execution_count="46">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb42"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Boxplots for numerical variables</span></span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a>fig, axes <span class="op">=</span> plt.subplots(nrows<span class="op">=</span><span class="dv">2</span>, ncols<span class="op">=</span><span class="dv">3</span>, figsize<span class="op">=</span>(<span class="dv">9</span>, <span class="dv">5</span>))</span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a>axes <span class="op">=</span> axes.flat</span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a>columnas_numeric <span class="op">=</span> new_data.select_dtypes(include<span class="op">=</span>[<span class="st">'float64'</span>, <span class="st">'int'</span>]).columns</span>
+<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-6"><a href="#cb42-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, colum <span class="kw">in</span> <span class="bu">enumerate</span>(numeric_cols):</span>
+<span id="cb42-7"><a href="#cb42-7" aria-hidden="true" tabindex="-1"></a>    sns.boxplot(</span>
+<span id="cb42-8"><a href="#cb42-8" aria-hidden="true" tabindex="-1"></a>        data    <span class="op">=</span> new_data,</span>
+<span id="cb42-9"><a href="#cb42-9" aria-hidden="true" tabindex="-1"></a>        y       <span class="op">=</span> colum,</span>
+<span id="cb42-10"><a href="#cb42-10" aria-hidden="true" tabindex="-1"></a>        ax      <span class="op">=</span> axes[i<span class="op">-</span><span class="dv">2</span>],</span>
+<span id="cb42-11"><a href="#cb42-11" aria-hidden="true" tabindex="-1"></a>        x       <span class="op">=</span> <span class="st">'diagnosis'</span>,</span>
+<span id="cb42-12"><a href="#cb42-12" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb42-13"><a href="#cb42-13" aria-hidden="true" tabindex="-1"></a>    axes[i<span class="op">-</span><span class="dv">2</span>].set_title(colum, fontsize <span class="op">=</span> <span class="dv">7</span>, fontweight <span class="op">=</span> <span class="st">"bold"</span>)</span>
+<span id="cb42-14"><a href="#cb42-14" aria-hidden="true" tabindex="-1"></a>    axes[i<span class="op">-</span><span class="dv">2</span>].tick_params(labelsize <span class="op">=</span> <span class="dv">6</span>)</span>
+<span id="cb42-15"><a href="#cb42-15" aria-hidden="true" tabindex="-1"></a>    axes[i<span class="op">-</span><span class="dv">2</span>].set_xlabel(<span class="st">""</span>)</span>
+<span id="cb42-16"><a href="#cb42-16" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb42-17"><a href="#cb42-17" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb42-18"><a href="#cb42-18" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb42-19"><a href="#cb42-19" aria-hidden="true" tabindex="-1"></a>fig.tight_layout()</span>
+<span id="cb42-20"><a href="#cb42-20" aria-hidden="true" tabindex="-1"></a>plt.subplots_adjust(top <span class="op">=</span> <span class="fl">0.9</span>)</span>
+<span id="cb42-21"><a href="#cb42-21" aria-hidden="true" tabindex="-1"></a>fig.suptitle(<span class="st">'Numerical variables boxplot'</span>, fontsize <span class="op">=</span> <span class="dv">10</span>, fontweight <span class="op">=</span> <span class="st">"bold"</span>)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<p><img src="UrinaryBiomarkers_files/figure-html/cell-30-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<p>As for the densities and correlations, this separation of the data allows a better visualization of clusters.</p>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:195563,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1619985329144,&quot;user&quot;:{&quot;displayName&quot;:&quot;Angélica Santos Reyes&quot;,&quot;photoUrl&quot;:&quot;&quot;,&quot;userId&quot;:&quot;16538059615749627430&quot;},&quot;user_tz&quot;:-120}" data-outputid="f02b382f-9301-46df-e94f-f624173d0509" data-execution_count="47">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb43"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a>sns.pairplot(new_data, hue <span class="op">=</span> <span class="st">'diagnosis'</span>, markers<span class="op">=</span>[<span class="st">"o"</span>, <span class="st">"s"</span>], palette<span class="op">=</span> sns.color_palette(<span class="st">"muted"</span>, <span class="dv">2</span>), corner<span class="op">=</span><span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display" data-execution_count="47">
+<pre><code>&lt;seaborn.axisgrid.PairGrid at 0x7f8c489db400&gt;</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<p><img src="UrinaryBiomarkers_files/figure-html/cell-31-output-2.png" class="img-fluid"></p>
+</div>
+</div>
+<p>The same graphs are evaluated after the application of a log transform and the results show clear difference between the two groups.</p>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:195988,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1619985329586,&quot;user&quot;:{&quot;displayName&quot;:&quot;Angélica Santos Reyes&quot;,&quot;photoUrl&quot;:&quot;&quot;,&quot;userId&quot;:&quot;16538059615749627430&quot;},&quot;user_tz&quot;:-120}" data-outputid="24011da2-fdeb-4c7a-ee07-6ec29a425bcd" data-execution_count="48">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb45"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a> <span class="co"># Boxplots of data when applying the transform</span></span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>fig, axes <span class="op">=</span> plt.subplots(nrows<span class="op">=</span><span class="dv">2</span>, ncols<span class="op">=</span><span class="dv">3</span>, figsize<span class="op">=</span>(<span class="dv">9</span>, <span class="dv">5</span>))</span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a>axes <span class="op">=</span> axes.flat</span>
+<span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a>columnas_numeric <span class="op">=</span> new_data.select_dtypes(include<span class="op">=</span>[<span class="st">'float64'</span>, <span class="st">'int'</span>]).columns</span>
+<span id="cb45-5"><a href="#cb45-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-6"><a href="#cb45-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, colum <span class="kw">in</span> <span class="bu">enumerate</span>(numeric_cols):</span>
+<span id="cb45-7"><a href="#cb45-7" aria-hidden="true" tabindex="-1"></a>    sns.boxplot(</span>
+<span id="cb45-8"><a href="#cb45-8" aria-hidden="true" tabindex="-1"></a>        data    <span class="op">=</span> data,</span>
+<span id="cb45-9"><a href="#cb45-9" aria-hidden="true" tabindex="-1"></a>        y       <span class="op">=</span> (transformer.transform(new_data[colum])),</span>
+<span id="cb45-10"><a href="#cb45-10" aria-hidden="true" tabindex="-1"></a>        ax      <span class="op">=</span> axes[i<span class="op">-</span><span class="dv">2</span>],</span>
+<span id="cb45-11"><a href="#cb45-11" aria-hidden="true" tabindex="-1"></a>        x       <span class="op">=</span> <span class="st">'diagnosis'</span>,</span>
+<span id="cb45-12"><a href="#cb45-12" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb45-13"><a href="#cb45-13" aria-hidden="true" tabindex="-1"></a>    axes[i<span class="op">-</span><span class="dv">2</span>].set_title(colum, fontsize <span class="op">=</span> <span class="dv">7</span>, fontweight <span class="op">=</span> <span class="st">"bold"</span>)</span>
+<span id="cb45-14"><a href="#cb45-14" aria-hidden="true" tabindex="-1"></a>    axes[i<span class="op">-</span><span class="dv">2</span>].tick_params(labelsize <span class="op">=</span> <span class="dv">6</span>)</span>
+<span id="cb45-15"><a href="#cb45-15" aria-hidden="true" tabindex="-1"></a>    axes[i<span class="op">-</span><span class="dv">2</span>].set_xlabel(<span class="st">""</span>)</span>
+<span id="cb45-16"><a href="#cb45-16" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb45-17"><a href="#cb45-17" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb45-18"><a href="#cb45-18" aria-hidden="true" tabindex="-1"></a>fig.tight_layout()</span>
+<span id="cb45-19"><a href="#cb45-19" aria-hidden="true" tabindex="-1"></a>plt.subplots_adjust(top <span class="op">=</span> <span class="fl">0.9</span>)</span>
+<span id="cb45-20"><a href="#cb45-20" aria-hidden="true" tabindex="-1"></a>fig.suptitle(<span class="st">'Logarithm of numerical variables boxplot'</span>, fontsize <span class="op">=</span> <span class="dv">10</span>, fontweight <span class="op">=</span> <span class="st">"bold"</span>)<span class="op">;</span></span>
+<span id="cb45-21"><a href="#cb45-21" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<p><img src="UrinaryBiomarkers_files/figure-html/cell-32-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:216722,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1619985350337,&quot;user&quot;:{&quot;displayName&quot;:&quot;Angélica Santos Reyes&quot;,&quot;photoUrl&quot;:&quot;&quot;,&quot;userId&quot;:&quot;16538059615749627430&quot;},&quot;user_tz&quot;:-120}" data-outputid="c661442c-ddf8-4f38-9ae3-2986df6ad8f8" data-execution_count="49">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb46"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>plotting_data <span class="op">=</span> transformer.transform(new_data.select_dtypes(include<span class="op">=</span>[<span class="st">'float64'</span>, <span class="st">'int'</span>]))</span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a>plotting_data <span class="op">=</span> pd.concat([plotting_data.reset_index(drop<span class="op">=</span><span class="va">True</span>), new_data.diagnosis], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a>sns.pairplot(plotting_data, hue <span class="op">=</span> <span class="st">'diagnosis'</span>, markers<span class="op">=</span>[<span class="st">"o"</span>, <span class="st">"s"</span>], palette<span class="op">=</span> sns.color_palette(<span class="st">"muted"</span>, <span class="dv">2</span>), corner<span class="op">=</span><span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display" data-execution_count="49">
+<pre><code>&lt;seaborn.axisgrid.PairGrid at 0x7f8c3c8b9a00&gt;</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<p><img src="UrinaryBiomarkers_files/figure-html/cell-33-output-2.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-execution_count="50">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb48"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a>y2class <span class="op">=</span> new_data.diagnosis</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<section id="division-of-data-1" class="level3">
+<h3 class="anchored" data-anchor-id="division-of-data-1">6.1 Division of data</h3>
+<p>The new data will be divided into train, validation and test using the same method as before.</p>
+<div class="cell" data-execution_count="59">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb49"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a>X_train2, X_test2, y_train2, y_test2 <span class="op">=</span> train_test_split(X,y2class, test_size <span class="op">=</span> <span class="fl">0.33</span>, random_state <span class="op">=</span> <span class="dv">42</span>,stratify<span class="op">=</span>y2class)</span>
+<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a>X_train2, X_val2, y_train2, y_val2 <span class="op">=</span> train_test_split(X_train2, y_train2, test_size<span class="op">=</span><span class="fl">0.25</span>, random_state<span class="op">=</span><span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</section>
+<section id="predictive-models-1" class="level3">
+<h3 class="anchored" data-anchor-id="predictive-models-1">6.2 Predictive models</h3>
+<p>The same models as before are validated, the tunning parameters are the ones set by default.</p>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:216726,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1619985350363,&quot;user&quot;:{&quot;displayName&quot;:&quot;Angélica Santos Reyes&quot;,&quot;photoUrl&quot;:&quot;&quot;,&quot;userId&quot;:&quot;16538059615749627430&quot;},&quot;user_tz&quot;:-120}" data-outputid="56cf1cd8-fc92-41d6-c95f-7af0a39443c5" data-execution_count="52">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb50"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a>key2 <span class="op">=</span> [<span class="st">'LogisticRegression'</span>,<span class="st">'KNeighborsClassifier'</span>,<span class="st">'SVC'</span>,<span class="st">'DecisionTreeClassifier'</span>,<span class="st">'RandomForestClassifier'</span>,<span class="st">'GradientBoostingClassifier'</span>,<span class="st">'AdaBoostClassifier'</span>]</span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>value2 <span class="op">=</span> [LogisticRegression(),KNeighborsClassifier(weights <span class="op">=</span><span class="st">'distance'</span>), SVC(random_state<span class="op">=</span><span class="dv">42</span>), DecisionTreeClassifier(random_state<span class="op">=</span><span class="dv">42</span>), RandomForestClassifier(random_state<span class="op">=</span><span class="dv">42</span>), GradientBoostingClassifier(random_state<span class="op">=</span><span class="dv">42</span>), AdaBoostClassifier()]</span>
+<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a>models2 <span class="op">=</span> <span class="bu">dict</span>(<span class="bu">zip</span>(key2,value2))</span>
+<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a>models2</span>
+<span id="cb50-5"><a href="#cb50-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-6"><a href="#cb50-6" aria-hidden="true" tabindex="-1"></a>predicted2 <span class="op">=</span>[]</span>
+<span id="cb50-7"><a href="#cb50-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> name,algo <span class="kw">in</span> models2.items():</span>
+<span id="cb50-8"><a href="#cb50-8" aria-hidden="true" tabindex="-1"></a>    model<span class="op">=</span>algo</span>
+<span id="cb50-9"><a href="#cb50-9" aria-hidden="true" tabindex="-1"></a>    pipe <span class="op">=</span> Pipeline([(<span class="st">'preprocessing'</span>, preprocessor),  (<span class="st">'modelo'</span>, model)])</span>
+<span id="cb50-10"><a href="#cb50-10" aria-hidden="true" tabindex="-1"></a>    pipe.fit(X<span class="op">=</span>X_train2, y<span class="op">=</span>y_train2)</span>
+<span id="cb50-11"><a href="#cb50-11" aria-hidden="true" tabindex="-1"></a>    predict2 <span class="op">=</span> pipe.predict(X_val2)</span>
+<span id="cb50-12"><a href="#cb50-12" aria-hidden="true" tabindex="-1"></a>    acc <span class="op">=</span> accuracy_score(y_val2, predict2)</span>
+<span id="cb50-13"><a href="#cb50-13" aria-hidden="true" tabindex="-1"></a>    predicted2.append(acc)</span>
+<span id="cb50-14"><a href="#cb50-14" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb50-15"><a href="#cb50-15" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb50-16"><a href="#cb50-16" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize <span class="op">=</span> (<span class="dv">10</span>,<span class="dv">5</span>))</span>
+<span id="cb50-17"><a href="#cb50-17" aria-hidden="true" tabindex="-1"></a>sns.barplot(x <span class="op">=</span> predicted2, y <span class="op">=</span> key2, palette<span class="op">=</span><span class="st">'muted'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display" data-execution_count="52">
+<pre><code>&lt;AxesSubplot:&gt;</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<p><img src="UrinaryBiomarkers_files/figure-html/cell-36-output-2.png" class="img-fluid"></p>
+</div>
+</div>
+<p>As expected, these models have significantly improved their results in this scenario.</p>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:216713,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1619985350365,&quot;user&quot;:{&quot;displayName&quot;:&quot;Angélica Santos Reyes&quot;,&quot;photoUrl&quot;:&quot;&quot;,&quot;userId&quot;:&quot;16538059615749627430&quot;},&quot;user_tz&quot;:-120}" data-outputid="1ac1d23e-6a6a-4c74-ce69-894300ee17bf" data-execution_count="53">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb52"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a>predictions2 <span class="op">=</span> <span class="bu">dict</span>(<span class="bu">zip</span>(key2,predicted2))</span>
+<span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(predictions2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>{'LogisticRegression': 0.8383838383838383, 'KNeighborsClassifier': 0.8585858585858586, 'SVC': 0.8888888888888888, 'DecisionTreeClassifier': 0.8282828282828283, 'RandomForestClassifier': 0.8888888888888888, 'GradientBoostingClassifier': 0.8686868686868687, 'AdaBoostClassifier': 0.8484848484848485}</code></pre>
+</div>
+</div>
+<p>The best predictors are the SVC and the RandomForestClassfier. The chosen model to tune is the RF.</p>
+</section>
+<section id="tunning-the-chosen-two-class-model" class="level3">
+<h3 class="anchored" data-anchor-id="tunning-the-chosen-two-class-model">6.3 Tunning the chosen two class model</h3>
+<section id="random-forest-classifier" class="level4">
+<h4 class="anchored" data-anchor-id="random-forest-classifier">Random Forest Classifier</h4>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:286966,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1619985420630,&quot;user&quot;:{&quot;displayName&quot;:&quot;Angélica Santos Reyes&quot;,&quot;photoUrl&quot;:&quot;&quot;,&quot;userId&quot;:&quot;16538059615749627430&quot;},&quot;user_tz&quot;:-120}" data-outputid="98fbace0-b423-4911-c72c-ca4b33c5bac4" data-execution_count="58">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb54"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> RandomizedSearchCV, RepeatedKFold</span>
+<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestClassifier</span>
+<span id="cb54-3"><a href="#cb54-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> multiprocessing</span>
+<span id="cb54-4"><a href="#cb54-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb54-5"><a href="#cb54-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Se combinan los pasos de preprocesado y el modelo en un mismo pipeline.</span></span>
+<span id="cb54-6"><a href="#cb54-6" aria-hidden="true" tabindex="-1"></a>pipe <span class="op">=</span> Pipeline([(<span class="st">'preprocessing'</span>, preprocessor),</span>
+<span id="cb54-7"><a href="#cb54-7" aria-hidden="true" tabindex="-1"></a>                 (<span class="st">'modelo'</span>, RandomForestClassifier())])</span>
+<span id="cb54-8"><a href="#cb54-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb54-9"><a href="#cb54-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Hyperparameters optimization</span></span>
+<span id="cb54-10"><a href="#cb54-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb54-11"><a href="#cb54-11" aria-hidden="true" tabindex="-1"></a>param_distributions <span class="op">=</span> {</span>
+<span id="cb54-12"><a href="#cb54-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">'modelo__n_estimators'</span>: [<span class="dv">20</span>, <span class="dv">30</span>, <span class="dv">50</span>, <span class="dv">100</span>, <span class="dv">150</span>, <span class="dv">200</span>],</span>
+<span id="cb54-13"><a href="#cb54-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">'modelo__criterion'</span>: [<span class="st">"gini"</span>, <span class="st">"entropy"</span>],</span>
+<span id="cb54-14"><a href="#cb54-14" aria-hidden="true" tabindex="-1"></a>    <span class="st">'modelo__max_features'</span>: [<span class="st">"auto"</span>, <span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">7</span>],</span>
+<span id="cb54-15"><a href="#cb54-15" aria-hidden="true" tabindex="-1"></a>    <span class="st">'modelo__max_depth'</span>   : [<span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">10</span>, <span class="dv">20</span>]</span>
+<span id="cb54-16"><a href="#cb54-16" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb54-17"><a href="#cb54-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb54-18"><a href="#cb54-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Random grid search</span></span>
+<span id="cb54-19"><a href="#cb54-19" aria-hidden="true" tabindex="-1"></a>grid <span class="op">=</span> RandomizedSearchCV(</span>
+<span id="cb54-20"><a href="#cb54-20" aria-hidden="true" tabindex="-1"></a>        estimator  <span class="op">=</span> pipe,</span>
+<span id="cb54-21"><a href="#cb54-21" aria-hidden="true" tabindex="-1"></a>        param_distributions <span class="op">=</span> param_distributions,</span>
+<span id="cb54-22"><a href="#cb54-22" aria-hidden="true" tabindex="-1"></a>        n_iter     <span class="op">=</span> <span class="dv">20</span>,</span>
+<span id="cb54-23"><a href="#cb54-23" aria-hidden="true" tabindex="-1"></a>        scoring    <span class="op">=</span> <span class="st">'accuracy'</span>,</span>
+<span id="cb54-24"><a href="#cb54-24" aria-hidden="true" tabindex="-1"></a>        n_jobs     <span class="op">=</span> multiprocessing.cpu_count() <span class="op">-</span> <span class="dv">1</span>,</span>
+<span id="cb54-25"><a href="#cb54-25" aria-hidden="true" tabindex="-1"></a>        cv         <span class="op">=</span> RepeatedKFold(n_splits <span class="op">=</span> <span class="dv">5</span>, n_repeats <span class="op">=</span> <span class="dv">3</span>),</span>
+<span id="cb54-26"><a href="#cb54-26" aria-hidden="true" tabindex="-1"></a>        refit      <span class="op">=</span> <span class="va">True</span>, </span>
+<span id="cb54-27"><a href="#cb54-27" aria-hidden="true" tabindex="-1"></a>        verbose    <span class="op">=</span> <span class="dv">2</span>,</span>
+<span id="cb54-28"><a href="#cb54-28" aria-hidden="true" tabindex="-1"></a>        random_state <span class="op">=</span> <span class="dv">123</span>,</span>
+<span id="cb54-29"><a href="#cb54-29" aria-hidden="true" tabindex="-1"></a>        return_train_score <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb54-30"><a href="#cb54-30" aria-hidden="true" tabindex="-1"></a>       )</span>
+<span id="cb54-31"><a href="#cb54-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb54-32"><a href="#cb54-32" aria-hidden="true" tabindex="-1"></a>grid.fit(X <span class="op">=</span> X_train2, y <span class="op">=</span> y_train2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Fitting 15 folds for each of 20 candidates, totalling 300 fits</code></pre>
+</div>
+<div class="cell-output cell-output-display" data-execution_count="58">
+<pre><code>RandomizedSearchCV(cv=RepeatedKFold(n_repeats=3, n_splits=5, random_state=None),
+                   estimator=Pipeline(steps=[('preprocessing',
+                                              ColumnTransformer(remainder='passthrough',
+                                                                transformers=[('cat',
+                                                                               Pipeline(steps=[('imputer',
+                                                                                                KNNImputer()),
+                                                                                               ('onehot',
+                                                                                                OneHotEncoder(handle_unknown='ignore'))]),
+                                                                               ['sample_origin',
+                                                                                'sex']),
+                                                                              ('numeric',
+                                                                               Pipeline(steps=[('transformer',
+                                                                                                Functi...
+                                                                                'creatinine',
+                                                                                'LYVE1',
+                                                                                'REG1B',
+                                                                                'T001',
+                                                                                'REG1A'])])),
+                                             ('modelo',
+                                              RandomForestClassifier())]),
+                   n_iter=20, n_jobs=7,
+                   param_distributions={'modelo__criterion': ['gini',
+                                                              'entropy'],
+                                        'modelo__max_depth': [3, 5, 10, 20],
+                                        'modelo__max_features': ['auto', 3, 5,
+                                                                 7],
+                                        'modelo__n_estimators': [20, 30, 50,
+                                                                 100, 150,
+                                                                 200]},
+                   random_state=123, return_train_score=True,
+                   scoring='accuracy', verbose=2)</code></pre>
+</div>
+</div>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:286956,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1619985420632,&quot;user&quot;:{&quot;displayName&quot;:&quot;Angélica Santos Reyes&quot;,&quot;photoUrl&quot;:&quot;&quot;,&quot;userId&quot;:&quot;16538059615749627430&quot;},&quot;user_tz&quot;:-120}" data-outputid="fd4b6927-10bc-4ddf-ee7e-ddf6106d5117" data-execution_count="55">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb57"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Parameters chosen</span></span>
+<span id="cb57-2"><a href="#cb57-2" aria-hidden="true" tabindex="-1"></a>grid.best_params_</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display" data-execution_count="55">
+<pre><code>{'modelo__n_estimators': 200,
+ 'modelo__max_features': 5,
+ 'modelo__max_depth': 5,
+ 'modelo__criterion': 'gini'}</code></pre>
+</div>
+</div>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:286945,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1619985420633,&quot;user&quot;:{&quot;displayName&quot;:&quot;Angélica Santos Reyes&quot;,&quot;photoUrl&quot;:&quot;&quot;,&quot;userId&quot;:&quot;16538059615749627430&quot;},&quot;user_tz&quot;:-120}" data-outputid="679dd132-500b-40e8-f271-ef49e57bea63" data-execution_count="56">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb59"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Check the validation again</span></span>
+<span id="cb59-2"><a href="#cb59-2" aria-hidden="true" tabindex="-1"></a>new_val2 <span class="op">=</span> grid.predict(X_val2)</span>
+<span id="cb59-3"><a href="#cb59-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(accuracy_score(y_val2, new_val2))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>0.8686868686868687</code></pre>
+</div>
+</div>
+<div class="cell" data-executioninfo="{&quot;elapsed&quot;:286934,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1619985420634,&quot;user&quot;:{&quot;displayName&quot;:&quot;Angélica Santos Reyes&quot;,&quot;photoUrl&quot;:&quot;&quot;,&quot;userId&quot;:&quot;16538059615749627430&quot;},&quot;user_tz&quot;:-120}" data-outputid="0a22897e-1da0-43ea-83f9-434b5c88e92b" data-execution_count="57">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb61"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb61-1"><a href="#cb61-1" aria-hidden="true" tabindex="-1"></a><span class="co">#See the results in the test data</span></span>
+<span id="cb61-2"><a href="#cb61-2" aria-hidden="true" tabindex="-1"></a>prediction <span class="op">=</span> grid.predict(X_test2)</span>
+<span id="cb61-3"><a href="#cb61-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> classification_report, confusion_matrix</span>
+<span id="cb61-4"><a href="#cb61-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(confusion_matrix(y_test2,prediction))</span>
+<span id="cb61-5"><a href="#cb61-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(classification_report(y_test2,prediction))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>[[120   9]
+ [  8  58]]
+              precision    recall  f1-score   support
+
+           1       0.94      0.93      0.93       129
+           2       0.87      0.88      0.87        66
+
+    accuracy                           0.91       195
+   macro avg       0.90      0.90      0.90       195
+weighted avg       0.91      0.91      0.91       195
+</code></pre>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="conclusions" class="level2">
+<h2 class="anchored" data-anchor-id="conclusions">7. Conclusions</h2>
+<p style="text-align: justify;">
+</p><p>The tunned models show a high performance in both cases, nevertheless, due to the similarities between groups in the first case, a second analysis was performed in order to see if better predictions could be obtained.</p>
+<p>The best model was the random forest classifier, which was built for only two classes. It uses the gini criterion, a maximum depth of 5 and 50 estimators. The accuracy obtained on the test set was 0,89.</p>
+<p>These results show that the analysed biomarkers can accurately predict whether a patient has cancer or not.</p>
+Future lines of research can include the prediction of symptoms for benign tumors or the prediction of the stage of the cancer in the case of a positive diagnosis.
+<p></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
